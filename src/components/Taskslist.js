@@ -7,7 +7,7 @@ function TasksList() {
     "Follow Edukasyon.ph on Facebook",
     "Follow AWS Siklab Pilipinas on Facebook",
     "Follow Zuitt Coding Bootcamp on Facebook",
-    "Follow Zuitt Coding Bootcamp on Instagram",
+    "Follow Zuitt Coding Bootcamp on Instagramx",
   ]);
 
   const [taskValue, setTaskValue] = useState("");
@@ -21,6 +21,12 @@ function TasksList() {
     setTaskItemsList([taskValue, ...taskItemsList]);
     setTaskValue("");
   };
+  const handleKeyPress = (e) => {
+    if(e.key === 'Enter') {
+      setTaskItemsList([taskValue, ...taskItemsList]);
+      setTaskValue("");
+    }    
+  }  
 
   return (
     <div>
@@ -29,6 +35,7 @@ function TasksList() {
         placeholder="Create a new task"
         onChange={inputChangeHandler}
         onBlur={addTaskHandler}
+        onKeyPress={handleKeyPress}
         value={taskValue}
       />
       <ul>
