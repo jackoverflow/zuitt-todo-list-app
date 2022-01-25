@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zuitt-todo-list-app/static/css/main.704372f7.css",
+    "main.js": "/zuitt-todo-list-app/static/js/main.cd1bbfeb.js",
+    "index.html": "/zuitt-todo-list-app/index.html",
+    "main.704372f7.css.map": "/zuitt-todo-list-app/static/css/main.704372f7.css.map",
+    "main.cd1bbfeb.js.map": "/zuitt-todo-list-app/static/js/main.cd1bbfeb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.704372f7.css",
+    "static/js/main.cd1bbfeb.js"
+  ]
+}

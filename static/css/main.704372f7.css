@@ -1,0 +1,2 @@
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:Lobster,cursive}.app{text-align:center}.app-header{align-items:center;background-color:#282c34;color:#fff;display:flex;flex-direction:column;font-size:calc(10px + 2vmin);justify-content:center;min-height:100vh}ul{list-style:none;width:100%}.tasks-item{border:1px solid #d3d3d30f;padding:15px}.task-input,.tasks-item{border-radius:5px;margin-bottom:15px}.task-input{border:none;padding:10px;width:90%}
+/*# sourceMappingURL=main.704372f7.css.map*/
